@@ -186,6 +186,13 @@ padding-left:10px;
     padding:5%;
     color:#3a3a3a;
 }
+/*Media query:larger and landscape photos(567px and up)*/
+@media screen and(min-width:567px){
+    #photos{
+        column-count:2;
+        column-gap: 0;
+    }
+}
 /*Media query:tablets and larger(768px up)*/
 @media screen and(min-width:768px){
     /*Header*/
@@ -245,7 +252,6 @@ main{
     #benefits-pyhsical > div{
         align-self:flex-end;
     }
-    }
 
 #benefist-pyhsical,
 #benefits-mental{
@@ -261,10 +267,19 @@ main{
     text-align:end;
     align-self:flex-end;
 }
+/*Gallery*/
+#photos{
+    column-count: 3;
+}
+}
 
 /*Larger devices(laptops and desktops,992px and up)*/
 @media screen and(min-width:922px){
     #menu a:hover{
         border-bottom:1px solid #3a3a3a;
     }
+   /*Gallery*/
+#photos{
+    column-count: 4;
+} 
 }
