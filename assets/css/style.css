@@ -142,11 +142,11 @@ padding-left:10px;
     color:#ffffff;
 }
 /*Meetup time section*/
-#times{
-    background:url("../images/dublin-city.webp")no-repeat center center/cover;
-    /*Handels responsivity wihout the need for media query*/
-    display:flex;
-    flex-wrap:wrap;
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
 }
 #times> div{
     color: #fafafa;
@@ -164,6 +164,14 @@ padding-left:10px;
 #times h3{
     /*Override the heading color set in general styles*/
     color: #fafafa;
+}
+/*Gallery page*/
+#photos img{
+    width:100%;
+    line-height:1em;
+}
+#photos{
+    line-height:0;
 }
 /*Footer*/
 .social-networks{
