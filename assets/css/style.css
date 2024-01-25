@@ -35,7 +35,7 @@ header{
    width:100%;
    box-shadow:0 2px 2px #3a3a3a;
    display:fixed;
-   justify-content: :space-between;
+   justify-content:space-between;
    align-items:baseline;
 }
 
@@ -100,7 +100,7 @@ main{
     padding: 30px;
 }
 #signup-form>h2 {
-    color: #fafafa;
+    color:#fafafa;
     margin-bottom: 20px;
 }
 .radio-buttons {
@@ -118,8 +118,6 @@ main{
 }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    ...
-
     /* Form */
     #signup {
         background-position: center;
@@ -165,7 +163,7 @@ hr {
 }
 /*Runner image coneccted with  reason section*/
 #circle-cover-bg{
-    background:url("../images/reasons-image.webp") no repeat top center/center;
+    background:url("../images/reasons-image.webp") norepeat top center/center;
     height:90vw;
     width:90vw;
     margin-top:20px;
@@ -183,7 +181,7 @@ hr {
 #hero {
     height:600px;
     width:100%;
-    background:url("../images/hero-image.webp") no-repeat center center/cover;
+    background:url("../images/hero-image.webp") norepeat center center/cover;
     position:relative;
 }
 #cover-text {
@@ -234,7 +232,7 @@ padding-left:10px;
 }
 /*Footer*/
 .social-networks{
-    text-align;center;
+    text-align:center;
     padding:20px 0;
     display:flex;
     justify-content:space-evenly;
